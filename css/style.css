@@ -208,62 +208,8 @@ body {
     font-weight: 200;
     line-height: 1.5; }
   
-  .site-service-item .icon {
-    display: block;
-    margin-bottom: 50px;
-    background: #edf0f2;
-    background: black;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    border-radius: 50%;
-    margin: 0 auto 30px auto; }
-    .site-service-item .icon span {
-      font-size: 40px;
-      color: #080b0e;
-      position: absolute;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      left: 50%;
-      top: 50%; }
-  
-  .site-service-item h3 {
-    font-size: 20px;
-    font-weight: 200; }
-  
-  .site-link {
-    position: relative; }
-    .site-link i {
-      position: relative;
-      top: 2px;
-      -webkit-transition: .3s all ease;
-      -o-transition: .3s all ease;
-      transition: .3s all ease; }
-    .site-link:hover i {
-      position: relative;
-      margin-left: 20px; }
-  
-  .site-list {
-    padding: 0;
-    margin: 0; }
-    .site-list li {
-      margin: 0 0 10px 0;
-      padding: 0;
-      position: relative;
-      list-style: none; }
-      .site-list li:before {
-        font-family: 'icomoon';
-        position: absolute;
-        top: .1em;
-        left: 0; }
-      .site-list li.site-check {
-        padding-left: 30px; }
-        .site-list li.site-check:before {
-          color: black;
-          font-size: 16px;
-          content: "\ebd3"; }
-  
+
+
   .btn {
     border-radius: 100px;
     text-transform: uppercase;
@@ -307,41 +253,7 @@ body {
         border-bottom-color: black;
         border-width: 5px;
         margin-left: -5px; }
-  
-  .skill h3 {
-    font-size: 18px; }
-  
-  .filters {
-    text-align: center; }
-    .filters ul {
-      padding: 0;
-      margin: 0 0 30px 0; }
-      .filters ul li {
-        display: inline-block;
-        cursor: pointer;
-        padding: 20px;
-        -webkit-transition: .3s all ease;
-        -o-transition: .3s all ease;
-        transition: .3s all ease; }
-        .filters ul li:hover {
-          color: black; }
-        .filters ul li.active {
-          color: black; }
-  
-  .single-portfolio {
-    margin-bottom: 50px;
-    display: block; }
-    .single-portfolio .relative {
-      margin-bottom: 20px; }
-    .single-portfolio .p-inner {
-      text-align: center; }
-      .single-portfolio .p-inner h4 {
-        font-size: 20px; }
-      .single-portfolio .p-inner .cat {
-        font-size: 12px;
-        text-transform: uppercase;
-        color: #cccccc; }
-  
+
   /*--------- Start Portfolio Area -------------*/
   .portfolio-area .primary-btn {
     color: #fff;
@@ -473,61 +385,8 @@ body {
         -o-transition: none;
         transition: none; } }
   
-  .resume-item {
-    padding: 40px;
-    background: #fff;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-    border: 4px solid transparent; }
-    .resume-item:hover, .resume-item:focus {
-      border: 4px solid black;
-      -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1); }
-    .resume-item .date {
-      display: block;
-      margin-bottom: 10px;
-      font-size: 12px;
-      letter-spacing: .1em;
-      color: #b3bdc6;
-      text-transform: uppercase; }
-    .resume-item .school {
-      display: block;
-      font-size: 20px; }
-    .resume-item h3, .resume-item .school {
-      color: #2c3e50; }
-  
-  .blog-entry {
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
-    position: relative;
-    top: 0;
-    -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1); }
-    .blog-entry:hover, .blog-entry:active, .blog-entry:focus {
-      -webkit-box-shadow: 0 5px 50px -10px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 5px 50px -10px rgba(0, 0, 0, 0.1);
-      top: -2px; }
-    .blog-entry .blog-entry-text {
-      border-top: none;
-      padding: 30px; }
-      .blog-entry .blog-entry-text h3 {
-        font-size: 20px;
-        margin-bottom: 10px;
-        line-height: 1.5; }
-        .blog-entry .blog-entry-text h3 a {
-          color: #2c3e50; }
-          .blog-entry .blog-entry-text h3 a:hover {
-            color: black; }
-    .blog-entry .meta {
-      font-size: 14px; }
-      .blog-entry .meta a {
-        display: inline-block;
-        margin-right: 10px;
-        color: #96a3b0; }
-        .blog-entry .meta a:hover {
-          color: black; }
+ 
+
   
   .form-control {
     border: none !important;
